@@ -73,7 +73,7 @@
   </ion-content>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue';
 
 const isCompleted = ref(false)
