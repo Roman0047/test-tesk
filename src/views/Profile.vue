@@ -42,7 +42,7 @@
 </template>
 
 <script setup lang="ts">
-import {IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonIcon} from '@ionic/vue';
+import {IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonIcon, IonButton} from '@ionic/vue';
 import {logoFacebook, logoGoogle, logoIonic, logoLinkedin, logoTwitter, person} from 'ionicons/icons';
 </script>
 

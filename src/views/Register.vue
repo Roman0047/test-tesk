@@ -74,10 +74,11 @@
 </template>
 
 <script setup lang="ts">
+import {IonContent, IonInput, IonButton} from '@ionic/vue';
 import { ref } from 'vue';
 
 const isCompleted = ref(false)
-const user = ref({
+const user = ref<any>({
   phone: '',
   email: '',
   password: '',

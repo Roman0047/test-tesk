@@ -30,9 +30,10 @@
 </template>
 
 <script setup lang="ts">
+import {IonContent, IonInput, IonButton} from '@ionic/vue';
 import { ref } from 'vue';
 
-const user = ref({
+const user = ref<any>({
   email: '',
   password: '',
 });
